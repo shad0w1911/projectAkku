@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: #222;
+}
+
+section p {
+    font-size: 20px;
+    color: #222;
+    font-style: ;
+}
+
+.header {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: #222;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #222;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header button {
+    color: #FFF;
+    background: #34b42b;
+    padding: 18px 38px;
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#view-more {
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#view-more span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#view-more span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#view-more:hover span {
+    padding-right: 25px;
+}
+
+#view-more:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+hr {
+    color: #34b42b;
+}
+
+#aboutIMG {
+    margin-top: 60px;
+}
+
+#about h1 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#about span {
+    color: #1c319a;
+}
+
+#aboutCT h1 {
+    color: #34b42b;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer span {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #34b42b;
+}
