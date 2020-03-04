@@ -39,9 +39,9 @@ section p {
 
 .header {
     position: absolute;
-    top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
+    top: 350px;
     text-align: center;
 }
 
@@ -134,4 +134,9 @@ footer span {
     font-size: 15px;
     text-align: center;
     color: #34b42b;
+}
+
+#slider {
+    margin: 0px;
+    padding: 0px;
 }
